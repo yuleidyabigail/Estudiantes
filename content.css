@@ -124,13 +124,11 @@ background:#ededed;
 /* eXeLearning Style Designer */
 .iDevice_header{
 /*emTitleColor*/
-color:#ffffff;
+color:#005fbf;
 /*emTitleBGColor*/
-background-color:#0e1927;border-color:#dddddd;
+background-color:#a9f2f2;border-color:#dddddd;
 }
 .iDevice_inner{
-/*emColor*/
-color:#494949;
 /*emBGColor*/
 background-color:#ffffff;border-color:/*emBorderColor*/
 #dddddd;
@@ -165,17 +163,21 @@ background-image:url(icon_info.png);
 .ReflectionIdevice .iDeviceTitle{
 background-image:url(icon_account.png);
 }
+.iDevice.emphasis0{
+/*noEmColor*/
+color:#000000;
+}
 body{
+/*fontFamily*/
+font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 /*bodyColor*/
-color:#333333;
-/*fontSize*/
-font-size:95%;
+color:#000000;
 /*contentBGColor*/
 background-color:#ffffff;
 }
 a{
 /*aColor*/
-color:#18ad8a;
+color:#0000bf;
 }
 #header,#emptyHeader,#nodeDecoration{
 height:auto!important;
@@ -184,11 +186,12 @@ height:250px;min-height:250px;
 /*headerBGColor*/
 background-color:#ffffff;
 /*headerBGURL*/
-background-image:url(Portada2024.png);
+background-image:url(cabex.png);
 /*headerBGRepeat*/
-background-repeat:no-repeat;
+background-repeat:repeat;
 /*headerBGPosition*/
-background-position:50% 0;
+background-position:50% 50%;border:1px solid /*headerBorderColor*/
+#dddddd;
 }
 #headerContent{
 /*hideProjectTitle*/
@@ -196,17 +199,11 @@ position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px
 }
 #siteFooter{
 border:1px solid /*footerBorderColor*/
-#bcbcbc;
+#60eaca;
 /*footerColor*/
-color:#ffffff;
+color:#000000;
 /*footerTextAlign*/
 text-align:center;
 /*footerBGColor*/
-background-color:#616867;
-/*footerFontSize*/
-font-size:80%;
-}
-#siteFooter a{
-/*footerAColor*/
-color:#91eff2;
+background-color:#ffffff;
 }
