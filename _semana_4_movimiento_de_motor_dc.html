@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>📆 Semana 4: Movimiento de motor DC | Recurso estudiantes carro </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Estudiantes PCEI" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-20"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Recurso estudiantes carro</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">🏠 Inicio</a></li>
+   <li><a href="_introduccin.html" class="no-ch">💻 Introducción</a></li>
+   <li><a href="_semana_1_conozco_el_esp32_y_lo_conecto.html" class="daddy">📆 Semana 1: Conozco el ESP32 y lo conecto</a>
+   <ul class="other-section">
+      <li><a href="_conocimientos_tericos.html" class="no-ch">📚 Conocimientos teóricos</a></li>
+      <li><a href="_actividades.html" class="no-ch">🧩 Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="_semana_2_encendido_de_un_led_con_esp32.html" class="daddy">📆 Semana 2: Encendido de un Led con ESP32</a>
+   <ul class="other-section">
+      <li><a href="_conocimientos_tericos0.html" class="no-ch">📚 Conocimientos teóricos</a></li>
+      <li><a href="_actividades0.html" class="no-ch">🧩 Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="_semana_3_ejecucin_de_servo_motor.html" class="daddy">📆 Semana 3: Ejecución de servo motor</a>
+   <ul class="other-section">
+      <li><a href="_conocimientos_tericos1.html" class="no-ch">📚 Conocimientos teóricos</a></li>
+      <li><a href="_actividades1.html" class="no-ch">🧩 Actividades</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="_semana_4_movimiento_de_motor_dc.html" class="active daddy">📆 Semana 4: Movimiento de motor DC</a>
+   <ul>
+      <li><a href="_conocimientos_tericos2.html" class="no-ch">📚 Conocimientos teóricos</a></li>
+      <li><a href="_actividades2.html" class="no-ch">🧩 Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="_semana_5__app_inventor.html" class="daddy">📆 Semana 5:  App Inventor</a>
+   <ul class="other-section">
+      <li><a href="_conocimientos_tericos3.html" class="no-ch">📚 Conocimientos teóricos</a></li>
+      <li><a href="_actividades3.html" class="no-ch">🧩 Actividades</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="_actividades1.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="_conocimientos_tericos2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">📆 Semana 4: Movimiento de motor DC</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id209">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Motor DC</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta209_137_2" class="block iDevice_content">
+<div class="exe-text"><ul>
+<li style="text-align: justify;">
+<p><span style="color: #000000;"><strong>Objetivo general:</strong> Comprender el principio de funcionamiento de un motor de corriente directa (DC) y controlar su giro desde el microcontrolador ESP32 mediante programación básica.</span></p>
+</li>
+<li style="text-align: justify;">
+<p><span style="color: #000000;"></span><span style="color: #000000;"><strong>Objetivos específicos:</strong> </span><span style="color: #000000;"></span><span style="color: #000000;"></span></p>
+</li>
+</ul>
+<ul style="list-style-type: square;">
+<li><span style="color: #000000;"></span><span style="color: #000000; font-size: 10pt;">Reconocer cómo se energiza un motor DC y cómo se comporta frente a diferentes conexiones.</span></li>
+<li><span style="color: #000000; font-size: 10pt;">Realizar la conexión eléctrica segura entre el motor DC, el ESP32 y el módulo controlador L298N.</span></li>
+<li><span style="color: #000000; font-size: 10pt;">Programar el ESP32 para activar y detener el motor, controlando su giro en un solo sentido.</span></li>
+</ul>
+<ul>
+<li style="text-align: justify;">
+<p><span style="color: #000000;"></span><span style="color: #000000;"><strong>Desarrollo de competencias:</strong> Se fortalece la comprensión de circuitos eléctricos básicos, aplicación del pensamiento computacional para el control físico, y el análisis de resultados físicos frente a instrucciones de software</span></p>
+</li>
+<li style="text-align: justify;">
+<p><span style="color: #000000;"></span><span style="color: #000000;"><strong>Contexto:</strong> El trabajo con motores DC permite a los estudiantes entender cómo la electricidad se traduce en movimiento. Este tipo de motores es muy común en robótica educativa y su dominio es clave para proyectos como carros robóticos, puertas automáticas o mecanismos giratorios simples. Esta semana representa el primer paso hacia la automatización del movimiento mecánico.</span></p>
+</li>
+<li style="text-align: justify;">
+<p><span style="color: #000000;"></span><span style="color: #000000;"><strong>Conocimientos teóricos:</strong> Motor de corriente directa (DC): Convierte energía eléctrica en energía mecánica rotativa. Su dirección de giro depende de la polaridad de la alimentación.</span></p>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id210">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Requisitos Previos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta210_138_2" class="block iDevice_content">
+<div class="exe-text"><ul>
+<li><span style="color: #000000;">Conocer conceptos básicos de electrónica.</span></li>
+<li><span style="color: #000000;">Familiaridad con la programación por bloques o en Arduino.</span></li>
+<li><span style="color: #000000;">Saber usar una computadora y manipular software educativo (Arduino IDE, mBlock, App Inventor).</span></li>
+<li><span style="color: #000000;">Comprender instrucciones técnicas y trabajen en equipo.</span></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="_actividades1.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="_conocimientos_tericos2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
