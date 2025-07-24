@@ -87,7 +87,7 @@
   <string role="key" value="_name"></string>
   <unicode value="exe_estudiante"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="77"></int>
+  <int value="78"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="28"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -10506,37 +10506,10 @@
               <int value="0"></int>
              </dictionary>
             </instance>
-           </list>
-           <string role="key" value="_id"></string>
-           <unicode value="24"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="2"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:%F0%9F%8F%A0Inicio:%F0%9F%93%86Semana%205%3A%20%20App%20Inventor%20:%F0%9F%93%9AConocimientos%20te%C3%B3ricos"></string>
-           <string role="key" value="parent"></string>
-           <reference key="153"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="174">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="🧩Actividades"></unicode>
-           <string role="key" value="idevices"></string>
-           <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="172">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="Actividad #1"></unicode>
+              <unicode value="Esquema"></unicode>
               <string role="key" value="_attributes"></string>
               <list>
                <tuple>
@@ -10597,7 +10570,7 @@
                <instance class="exe.engine.field.TextAreaField" reference="173">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="236_2"></unicode>
+                 <unicode value="218_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="172"></reference>
                  <string role="key" value="_instruc"></string>
@@ -10606,12 +10579,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
-                 <string role="key" value="anchors_linked_from_fields"></string>
-                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;iframe width=&quot;930&quot; height=&quot;314&quot; src=&quot;https://h5p.org/h5p/embed/1538163&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot; allow=&quot;geolocation *; microphone *; camera *; midi *; encrypted-media *&quot; title=&quot;Completar frase de App Inventor&quot;&gt;&lt;/iframe&gt;
-&lt;script src=&quot;https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;
-&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;img src=&quot;resources/Imagen_de_WhatsApp_2025-07-24_a_las_16.40.57_53bcef2f.jpg&quot; width=&quot;873&quot; height=&quot;698&quot; alt=&quot;&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -10624,7 +10593,60 @@
                  <instance class="exe.engine.galleryidevice.GalleryImages">
                   <dictionary>
                    <string role="key" value=".listitems"></string>
-                   <list></list>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="681"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="77_218_2.0"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="174">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="172"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="Imagen_de_WhatsApp_2025-07-24_a_las_16.40.57_53bcef2f.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmp3izwus.eXe\\previews\\Imagen_de_WhatsApp_2025-07-24_a_las_16.40.57_53bcef2f.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="6f0d80046ddebb655b039141cc3210b5"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="173"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
                    <string role="key" value="idevice"></string>
                    <reference key="173"></reference>
                   </dictionary>
@@ -10632,16 +10654,16 @@
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="0"></int>
+                 <int value="1"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="174"></reference>
+                 <reference key="166"></reference>
                 </dictionary>
                </instance>
               </list>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="54"></unicode>
+              <unicode value="77"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -10651,21 +10673,50 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="174"></reference>
+              <reference key="166"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="userResources"></string>
-              <list></list>
+              <list>
+               <reference key="174"></reference>
+              </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="24"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="2"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:%F0%9F%8F%A0Inicio:%F0%9F%93%86Semana%205%3A%20%20App%20Inventor%20:%F0%9F%93%9AConocimientos%20te%C3%B3ricos"></string>
+           <string role="key" value="parent"></string>
+           <reference key="153"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="177">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="🧩Actividades"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="175">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="Actividad #2"></unicode>
+              <unicode value="Actividad #1"></unicode>
               <string role="key" value="_attributes"></string>
               <list>
                <tuple>
@@ -10726,9 +10777,138 @@
                <instance class="exe.engine.field.TextAreaField" reference="176">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="218_2"></unicode>
+                 <unicode value="236_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="175"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;iframe width=&quot;930&quot; height=&quot;314&quot; src=&quot;https://h5p.org/h5p/embed/1538163&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot; allow=&quot;geolocation *; microphone *; camera *; midi *; encrypted-media *&quot; title=&quot;Completar frase de App Inventor&quot;&gt;&lt;/iframe&gt;
+&lt;script src=&quot;https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;
+&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="176"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="177"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="54"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="177"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="178">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Actividad #2"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Text"></unicode>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="179">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="218_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="178"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -10755,7 +10935,7 @@
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="176"></reference>
+                   <reference key="179"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -10763,7 +10943,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="174"></reference>
+                 <reference key="177"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -10780,7 +10960,7 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="174"></reference>
+              <reference key="177"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -10815,174 +10995,10 @@
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="179">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="📖Bibliografía"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="177">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="_attributes"></string>
-           <list>
-            <tuple>
-             <string value="title"></string>
-             <list>
-              <string value="Title"></string>
-              <int value="0"></int>
-              <int value="0"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="category"></string>
-             <list>
-              <string value="Category"></string>
-              <int value="0"></int>
-              <int value="1"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="css-class"></string>
-             <list>
-              <string value="CSS class"></string>
-              <int value="0"></int>
-              <int value="2"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="icon"></string>
-             <list>
-              <string value="Icon"></string>
-              <int value="0"></int>
-              <int value="3"></int>
-             </list>
-            </tuple>
-           </list>
-           <string role="key" value="_author"></string>
-           <string value=""></string>
-           <string role="key" value="_iDeviceDir"></string>
-           <string value="text"></string>
-           <string role="key" value="_purpose"></string>
-           <string value=""></string>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="_typeName"></string>
-           <unicode value="Text"></unicode>
-           <string role="key" value="_valid"></string>
-           <bool value="1"></bool>
-           <string role="key" value="class_"></string>
-           <unicode value="text"></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-           <int value="1"></int>
-           <string role="key" value="fields"></string>
-           <list>
-            <instance class="exe.engine.field.TextAreaField" reference="178">
-             <dictionary>
-              <string role="key" value="_id"></string>
-              <unicode value="243_2"></unicode>
-              <string role="key" value="_idevice"></string>
-              <reference key="177"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value=""></string>
-              <string role="key" value="_name"></string>
-              <string value=""></string>
-              <string role="key" value="anchor_names"></string>
-              <list></list>
-              <string role="key" value="anchors_linked_from_fields"></string>
-              <dictionary></dictionary>
-              <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://es.bloggif.com/tmp/8e6e3cfc4dd1587968fecb79120da6e1/text.gif?1753286661&quot; width=&quot;848&quot; height=&quot;88&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Visual LED. (2 de agosto de 2018). ¿Qué es un led? Tipos de Led, aplicaciones y usos. &lt;a href=&quot;https://visualled.com/glosario/que-es-un-led/&quot;&gt;https://visualled.com/glosario/que-es-un-led/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Mecatrónica LATAM. (23 de abril de 2021). Diodo LED. Mecatrónica LATAM. &lt;a href=&quot;https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/&quot;&gt;https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Fluke. (2025). ¿Qué es la resistencia? &lt;a href=&quot;https://www.fluke.com/es-ec/informacion/blog/electrica/que-es-la-resistencia&quot;&gt;https://www.fluke.com/es-ec/informacion/blog/electrica/que-es-la-resistencia&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Hioki. (2021). ¿Qué es la Resistencia? | Hioki. &lt;a href=&quot;https://www.hioki.com/learning/electricity/resistance.html&quot;&gt;https://www.hioki.com/learning/electricity/resistance.html&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Anda, N. (2018). Cables jumper macho-macho • Factor Evolución. Factor Evolución. &lt;a href=&quot;https://www.factor.mx/portal/base-de-conocimiento/cables-jumper-macho-macho/&quot;&gt;https://www.factor.mx/portal/base-de-conocimiento/cables-jumper-macho-macho/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Isaac. (1 de febrero de 2022). Cable Jumper: Qué es, para qué sirve, y dónde comprar. Hardware libre. &lt;a href=&quot;https://www.hwlibre.com/cable-jumper/&quot;&gt;https://www.hwlibre.com/cable-jumper/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Harmonic. (2025). Harmonic Drive SE - Glosario. Harmonic Drive SE. &lt;a href=&quot;https://harmonicdrive.de/es/glosario/motor-dc&quot;&gt;https://harmonicdrive.de/es/glosario/motor-dc&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Naylamp. (2023). Driver Puente H L298N 2A. Naylamp Mechatronics - Perú. &lt;a href=&quot;https://naylampmechatronics.com/drivers/11-driver-puente-h-l298n.html&quot;&gt;https://naylampmechatronics.com/drivers/11-driver-puente-h-l298n.html&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Guo Xing. (2024). ¿Qué-es-un-chasis-de-robot? – Guo Xing Intelligent &lt;a href=&quot;https://es.gxsuprobot.com/%C2%BFQu%C3%A9-es-un-chasis-de-robot-id47427856.html&quot;&gt;https://es.gxsuprobot.com/%C2%BFQu%C3%A9-es-un-chasis-de-robot-id47427856.html&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;MIT. (2021). MIT App Inventor. &lt;a href=&quot;https://appinventor.mit.edu/&quot;&gt;https://appinventor.mit.edu/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-              <int value="3"></int>
-              <string role="key" value="htmlTag"></string>
-              <string value="div"></string>
-              <string role="key" value="images"></string>
-              <instance class="exe.engine.galleryidevice.GalleryImages">
-               <dictionary>
-                <string role="key" value=".listitems"></string>
-                <list></list>
-                <string role="key" value="idevice"></string>
-                <reference key="178"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="intlinks_to_anchors"></string>
-              <dictionary></dictionary>
-              <string role="key" value="nextImageId"></string>
-              <int value="0"></int>
-              <string role="key" value="parentNode"></string>
-              <reference key="179"></reference>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="id"></string>
-           <unicode value="61"></unicode>
-           <string role="key" value="ideviceCategory"></string>
-           <unicode value="Text and Tasks"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="nextFieldId"></string>
-           <int value="3"></int>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parentNode"></string>
-           <reference key="179"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="26"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="2"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:%F0%9F%8F%A0Inicio:%F0%9F%93%96Bibliograf%C3%ADa"></string>
-        <string role="key" value="parent"></string>
-        <reference key="4"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
       <instance class="exe.engine.node.Node" reference="182">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="👩🏻‍💻Anexos"></unicode>
+        <unicode value="📖Bibliografía"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="180">
@@ -11049,9 +11065,173 @@
             <instance class="exe.engine.field.TextAreaField" reference="181">
              <dictionary>
               <string role="key" value="_id"></string>
-              <unicode value="218_2"></unicode>
+              <unicode value="243_2"></unicode>
               <string role="key" value="_idevice"></string>
               <reference key="180"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://es.bloggif.com/tmp/8e6e3cfc4dd1587968fecb79120da6e1/text.gif?1753286661&quot; width=&quot;848&quot; height=&quot;88&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Visual LED. (2 de agosto de 2018). ¿Qué es un led? Tipos de Led, aplicaciones y usos. &lt;a href=&quot;https://visualled.com/glosario/que-es-un-led/&quot;&gt;https://visualled.com/glosario/que-es-un-led/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Mecatrónica LATAM. (23 de abril de 2021). Diodo LED. Mecatrónica LATAM. &lt;a href=&quot;https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/&quot;&gt;https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Fluke. (2025). ¿Qué es la resistencia? &lt;a href=&quot;https://www.fluke.com/es-ec/informacion/blog/electrica/que-es-la-resistencia&quot;&gt;https://www.fluke.com/es-ec/informacion/blog/electrica/que-es-la-resistencia&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Hioki. (2021). ¿Qué es la Resistencia? | Hioki. &lt;a href=&quot;https://www.hioki.com/learning/electricity/resistance.html&quot;&gt;https://www.hioki.com/learning/electricity/resistance.html&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Anda, N. (2018). Cables jumper macho-macho • Factor Evolución. Factor Evolución. &lt;a href=&quot;https://www.factor.mx/portal/base-de-conocimiento/cables-jumper-macho-macho/&quot;&gt;https://www.factor.mx/portal/base-de-conocimiento/cables-jumper-macho-macho/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Isaac. (1 de febrero de 2022). Cable Jumper: Qué es, para qué sirve, y dónde comprar. Hardware libre. &lt;a href=&quot;https://www.hwlibre.com/cable-jumper/&quot;&gt;https://www.hwlibre.com/cable-jumper/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Harmonic. (2025). Harmonic Drive SE - Glosario. Harmonic Drive SE. &lt;a href=&quot;https://harmonicdrive.de/es/glosario/motor-dc&quot;&gt;https://harmonicdrive.de/es/glosario/motor-dc&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Naylamp. (2023). Driver Puente H L298N 2A. Naylamp Mechatronics - Perú. &lt;a href=&quot;https://naylampmechatronics.com/drivers/11-driver-puente-h-l298n.html&quot;&gt;https://naylampmechatronics.com/drivers/11-driver-puente-h-l298n.html&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Guo Xing. (2024). ¿Qué-es-un-chasis-de-robot? – Guo Xing Intelligent &lt;a href=&quot;https://es.gxsuprobot.com/%C2%BFQu%C3%A9-es-un-chasis-de-robot-id47427856.html&quot;&gt;https://es.gxsuprobot.com/%C2%BFQu%C3%A9-es-un-chasis-de-robot-id47427856.html&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;MIT. (2021). MIT App Inventor. &lt;a href=&quot;https://appinventor.mit.edu/&quot;&gt;https://appinventor.mit.edu/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="181"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="182"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="61"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="182"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="26"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:%F0%9F%8F%A0Inicio:%F0%9F%93%96Bibliograf%C3%ADa"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="185">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="👩🏻‍💻Anexos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="183">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="184">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="218_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="183"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -11097,10 +11277,10 @@
                    <string role="key" value="_id"></string>
                    <unicode value="75_218_2.2"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="183">
+                   <instance class="exe.engine.resource.Resource" reference="186">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="180"></reference>
+                     <reference key="183"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
@@ -11118,7 +11298,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="181"></reference>
+                   <reference key="184"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -11129,7 +11309,7 @@
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="181"></reference>
+                <reference key="184"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -11137,7 +11317,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="3"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="182"></reference>
+              <reference key="185"></reference>
              </dictionary>
             </instance>
            </list>
@@ -11154,14 +11334,14 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="182"></reference>
+           <reference key="185"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="183"></reference>
+            <reference key="186"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -11212,11 +11392,11 @@
    <unicode role="key" value="24"></unicode>
    <reference key="166"></reference>
    <unicode role="key" value="25"></unicode>
-   <reference key="174"></reference>
+   <reference key="177"></reference>
    <unicode role="key" value="26"></unicode>
-   <reference key="179"></reference>
-   <unicode role="key" value="27"></unicode>
    <reference key="182"></reference>
+   <unicode role="key" value="27"></unicode>
+   <reference key="185"></reference>
    <unicode role="key" value="3"></unicode>
    <reference key="40"></reference>
    <unicode role="key" value="4"></unicode>
@@ -11239,7 +11419,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="166"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -12507,7 +12687,7 @@
    </list>
    <string role="key" value="4de375073e13af5319dbe37e166c311c"></string>
    <list>
-    <reference key="183"></reference>
+    <reference key="186"></reference>
    </list>
    <string role="key" value="55464fa41a50ee43f7d392a4427b002d"></string>
    <list>
@@ -12516,6 +12696,10 @@
    <string role="key" value="69441b5a4cba9443bb414d9624a6e9d3"></string>
    <list>
     <reference key="92"></reference>
+   </list>
+   <string role="key" value="6f0d80046ddebb655b039141cc3210b5"></string>
+   <list>
+    <reference key="174"></reference>
    </list>
    <string role="key" value="727cfde84cdd147c1bf7d6339b4295d2"></string>
    <list>
